@@ -10,3 +10,5 @@ RIT2015039
 
 --> class diagram is in uml.png
 
+-->For Windows : build on NetBeans IDE 8.1+
+
