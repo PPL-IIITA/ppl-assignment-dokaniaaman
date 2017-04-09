@@ -1,8 +1,13 @@
 package question1;
+import question2.*;
+import question5.*;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+//import question1.question2.compatible;
+//import question1.question2.happyjodi;
+import question4.*;
 public class mainfunction {
  public static void main(String[] args) throws IOException{                
                 int i,j;
@@ -61,6 +66,16 @@ public class mainfunction {
 		}
                 calculation q=new calculation();
                       q.calculation(b,g,i);
+                      int k;
+                      k=5; // k is fixed
+                compatible w= new compatible();
+                   w.compatible(b,g,i,k);
+                happyjodi m= new happyjodi();
+                    m.happyjodi(b,g,i,k);
+                breakup as=new breakup();
+                as.breakup(b,g,i,k);
+                onebyone sd=new onebyone();
+                    sd.onebyone(b,g,i,k);
  }
  
 }
