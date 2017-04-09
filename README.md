@@ -8,7 +8,5 @@ RIT2015039
 --> Documentation of project is in javadoc file.
 
 
---> class diagram is in uml.png
-
 -->For Windows : build on NetBeans IDE 8.1+
 
